@@ -117,7 +117,7 @@
 
   // At the end
   defaultTasks = ['clean']
-  task stage(dependsOn: ['clean', 'installApp'])
+  task stage(dependsOn: ['clean', 'installDist'])
   ```
 
 - **Step 2**: Now add a _Procfile_ in your project with the contents:-
