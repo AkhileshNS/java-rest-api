@@ -16,7 +16,7 @@ public class App {
         if (process.environment().get("PORT") != null) {
             PORT = Integer.parseInt(process.environment().get("PORT"));
         } else {
-            PORT = 5000;
+            PORT = 4567;
         }
         port(PORT);
 
